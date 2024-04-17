@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'roboto',sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+body{
+    z-index: 2;
+    background-image: url(./image/friends-drinking-wine-posing-outdoor-party.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2{
+    margin-bottom: 8px;
+    text-align: center;
+    color: #f9f9f9;
+    background-color: #0056b3;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+label{
+    font-size: 14px;
+}
+
+form {
+    width: 400px;
+    padding: 24px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+input,
+button {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label.error{
+    color: red;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+input.error{
+    border-color: red;
+}
